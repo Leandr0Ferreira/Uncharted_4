@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+
+    background-image: url(img/fundo2.jpg);
+    max-width: 100%;
+    max-height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+/*Principal cabeçalho */
+.titulo-principal {
+
+    padding-top: 2rem;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 25px;
+    font-size: 40px;
+    color: #f2c464;
+
+
+}
+
+/* texto principal*/
+.conteudo {
+
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    text-align: justify;
+    color: whitesmoke;
+    padding: 3rem;
+    margin-top: 2rem;
+    line-height: 40px;
+    margin-left: 1rem;
+    text-align: justify;
+    text-transform: none;
+    filter: brightness(200%);
+    opacity: 10;
+    font-weight: bold;
+
+
+}
+
+/* imagem*/
+
+img {
+
+    width: 600px;
+    height: 400px;
+    border: 3px solid #fff599;
+    margin-top: 5rem;
+    margin-left: 4rem;
+
+}
+
+/* Conteudo das imagens */
+.conteudo-imagens {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: whitesmoke;
+    padding: 1rem;
+    line-height: 20px;
+    text-align: justify;
+    margin-left: 3rem;
+    filter: brightness(200%);
+    opacity: 10;
+    font-weight: bold;
+
+}
+
+/* cabeçalho das imagens*/
+h3 {
+
+    padding-bottom: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.segunda-imagem img {
+
+
+    float: right;
+    margin-right: 4rem;
+}
+
+.segunda-imagem .conteudo-imagens {
+
+    padding-top: 10rem;
+
+
+
+}
+
+
+
+/* footer*/
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/*Link youtube*/
+
+.link {
+
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+
+}
+
+.link a:hover {
+
+
+    text-decoration: underline;
+    color: #ff4500;
+
+
+
+}
